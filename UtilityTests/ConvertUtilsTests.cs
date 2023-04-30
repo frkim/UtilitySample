@@ -27,7 +27,7 @@ namespace Utility.Tests
         }
 
         [Fact]
-        public static void TestMilesToKilometers()
+        public static void MilesToKilometersTest()
         {
             double miles = 10;
             double expected = 16.09344;
@@ -38,7 +38,7 @@ namespace Utility.Tests
             }
         }
         [Fact]
-        public static void TestKilometersToMiles()
+        public static void KilometersToMilesTest()
         {
             double kilometers = 10;
             double expected = 6.21371192;
