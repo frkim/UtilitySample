@@ -7,7 +7,7 @@ on:
     - 'v*'
 
 env:
-  PROJECT_PATH: 'PasswordBoxMVVM/PasswordBoxMVVM.csproj'
+  PROJECT_PATH: './Utility/Utility.csproj'
   PACKAGE_OUTPUT_DIRECTORY: ${{ github.workspace }}\output
   NUGET_SOURCE_URL: 'https://api.nuget.org/v3/index.json'
 
